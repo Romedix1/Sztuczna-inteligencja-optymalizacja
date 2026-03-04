@@ -19,3 +19,10 @@ Wybrać taki zestaw produktów, aby:
 
 ## Dataset
 https://huggingface.co/datasets/RaghavM12/FoodDirectory
+
+# Język
+python
+
+## Autorzy
+Michał Dobosz 21230
+Kamil Przychodzeń 21297
