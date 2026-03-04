@@ -16,3 +16,6 @@ Wybrać taki zestaw produktów, aby:
 
 - łączna suma cen **nie przekroczyła 200 zł**,
 - łączna liczba kalorii była **maksymalna**.
+
+## Dataset
+https://huggingface.co/datasets/RaghavM12/FoodDirectory
