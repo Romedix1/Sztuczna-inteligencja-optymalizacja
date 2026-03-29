@@ -2,11 +2,12 @@
 
 ## Opis sytuacji
 
-Osoba dysponuje budżetem w wysokości **200 zł** i chce zakupić produkty spożywcze w taki sposób, aby uzyskać jak największą liczbę kalorii.  
+Osoba dysponuje budżetem w wysokości **200 zł** i chce zakupić produkty spożywcze w taki sposób, aby uzyskać jak największą liczbę kalorii.
 
 Każdy produkt może zostać zakupiony **maksymalnie raz**.
 
 Każdy produkt charakteryzuje się:
+
 - **ceną** (w zł),
 - **wartością energetyczną** (w kcal).
 
@@ -18,11 +19,14 @@ Wybrać taki zestaw produktów, aby:
 - łączna liczba kalorii była **maksymalna**.
 
 ## Dataset
+
 https://huggingface.co/datasets/RaghavM12/FoodDirectory
 
 ## Język
+
 python
 
 ## Autorzy
+
 Michał Dobosz 21230
 Kamil Przychodzeń 21297
