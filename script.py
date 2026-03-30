@@ -22,7 +22,6 @@ def run_hs_algorithm(hms, hmcr, par, iterations, budget_limit, result_var, run_b
         sort_asc = np.argsort(ratios)
         sort_desc = sort_asc[::-1]
 
-        np.random.seed(42)
         HM = np.zeros((hms, N), dtype=int)
         HM_fitness = np.zeros(hms)
 
@@ -82,7 +81,7 @@ def run_hs_algorithm(hms, hmcr, par, iterations, budget_limit, result_var, run_b
 
         elapsed_time = time.time() - start_time
 
-        result_text = (f"🌟 Znaleziono optymalny zestaw:\n\n"
+        result_text = (f"Znaleziono optymalny zestaw:\n\n"
                        f"Kalorie: {best_fitness:.2f} kcal\n"
                        f"Koszt: {best_cost:.2f} PLN\n"
                        f"Ilość produktów: {selected_count} z {N}\n\n"
